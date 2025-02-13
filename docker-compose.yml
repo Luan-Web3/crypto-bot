@@ -3,6 +3,5 @@ services:
   app:
     build: .
     container_name: crypto_bot
-    restart: always
     environment:
       - PYTHONUNBUFFERED=1
